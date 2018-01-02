@@ -1,0 +1,11 @@
+Shawn Banish Documentation
+
+Compile: javac AptTracker.java
+Run: java AptTracker
+**Follow on screen prompt questions after running**
+
+I created the PQApartment class which is what actually gets stored in the pq. The class consists of the two integers that get stored (footage or price, and the apartment's position in the arraylist of apartments). I did this
+because it saves memory by minimizing the copies of the apartments, which makes adding, removing, and updating easier. I chose to implement an arraylist because it is easier to insert and remove apartments due to
+not needing to worry about increasing array size. When finding, removing, and updating, it works by PQApartments getting popped off the top of the queue and onto a stack until I found the apartment I wanted, 
+then perform the find/remove/update and then the Stack of PQApartments get reinserted into the queue. While this isn't the most efficient way to do this, it will work just fine for this project because it works 
+every time, and runtime will not be a major factor in real world application (mine is quick enough). 
