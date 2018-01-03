@@ -1,9 +1,9 @@
-#CS/COE 1501 Project 3
+# CS/COE 1501 Project 3
 
-##Goal:
+## Goal:
 To explore an advanced application of priority queues in order to gain a deeper understanding of the data structure.
 
-##High-level description:
+## High-level description:
 You will be writing a basic application to help a user select an apartment to rent.
 You will write a menu-based user interface driver program (to be run in the terminal, no GUI), but most of the project will be in implementing a priority queue-based data structure.
 You should write a PQ-based data structure that stores objects according to the relative priorities of two of their attributes, making it efficient to retrieve objects with the minimum or maximum value of either attribute (whether each attribute should be retrieved by mix/max is defined at initialization).
@@ -13,7 +13,7 @@ The user should then be able to efficiently retrieve the apartment with the high
 You will assume that the user is looking for apartments in multiple different cities.
 These retrievals should be possible on the set of all entered apartments or on the set of all apartments from a specific city (e.g., "lowest price in Pittsburgh", "most square footage in San Francisco").
 
-##Specifications:
+## Specifications:
 1.  First you must create a class to store data about apartments.
 	Specifically, this class must contain the following information:
 	*  A street address (e.g., 4200 Forbes Ave.)
@@ -50,7 +50,7 @@ These retrievals should be possible on the set of all entered apartments or on t
 	If you can maintain runtimes of PQ operations that were discussed in lecture (e.g., constant to find; logarithmic to insert, remove, or update) for this situation you should do so.
 	If you cannot, you should describe the particular aspects of this situation that keep you from being able to do so.
 
-##Submission Guidelines:
+## Submission Guidelines:
 *  **DO NOT SUBMIT** any IDE package files.
 *  You must name the primary driver for your program AptTracker.java.
 *  You must be able to compile your game by running "javac AptTracker.java".
@@ -59,11 +59,11 @@ These retrievals should be possible on the set of all entered apartments or on t
 *  You must fill out info_sheet.txt.
 *  Be sure to remember to push the latest copy of your code back to your GitHub repository before the the project is due.  At the deadline, the repositories will automatically be copied for grading.  Whatever is present in your GitHub repository at that time will be considered your submission for this project.
 
-##Additional Notes/Hints:
+## Additional Notes/Hints:
 *  You are free to use code provided by the book authors in implementing your solution.
 	It is up to you to decide if it would be easier to modify the provided code to meet the requirements of this project or if it would be easier to start with a clean slate with all of your own code.
 
-##Grading Rubric
+## Grading Rubric
 *  Adding an apartment works properly:  10
 *  Updating an apartment works properly:  10
 *  Removing an apartment works properly:  15
